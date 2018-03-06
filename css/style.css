@@ -27,7 +27,7 @@ body h1,h2,h3,h4,h5,h6{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height:650px;
+    /*min-height:650px;*/
 	position: relative;
 }
 .top-header {
@@ -78,7 +78,7 @@ span.menu{
 	margin: 0 12px;
 	color: #797878;
 	text-shadow: none;
-	position: relative;  
+	position: relative;
     font-family: 'Open Sans', sans-serif;
 }
 .link-effect-3 a::before {
@@ -167,7 +167,7 @@ ul.address {
     border-style: solid;
     border-width: 14px 11px 0 12px;
     border-color: #00a78e transparent transparent transparent;
-	
+
 }
 .header-right h6 {
        font-size: 1em;
@@ -217,7 +217,7 @@ ul.social-icons{
     display: inline-block;
     margin-right: 1%;
 }
-.social-icons li a{  
+.social-icons li a{
     background: url(../images/social-icons2.png) no-repeat 3px 3px;
     display: block;
     height: 32px;
@@ -237,8 +237,8 @@ ul.social-icons{
 	transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
-	-ms-transform: rotate(45deg); 
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);	
+	-ms-transform: rotate(45deg);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .social-icons li a.fb{
 	background-position: 3px -30px;
@@ -258,7 +258,7 @@ background-position: 3px -94px;
 	margin:3em 0;
 }
 .note{
-	
+
 }
 .note h1{
 	color:#FFF;
@@ -433,7 +433,7 @@ span.border.one:after {
     font-size:1em;
     line-height: 2em;
     margin-top: 1.5em;
-} 
+}
 .about-left-grid ul{
 	margin:3em 0 0 0;
 	padding:0;
@@ -447,7 +447,7 @@ span.border.one:after {
 .about-left {
       padding: 4.5em 0 4.7em 0;
     float: right;
-    background: #f4f4f4;
+    background: rgba(248, 243, 210, 0.46);
 }
 .about-left-grid ul li a {
        padding: 0.6em 2em;
@@ -620,6 +620,11 @@ span.border.one:after {
 
 #work {
     padding: 5em 0;
+    background-color: rgba(181, 220, 216, 0.43)
+}
+#education {
+    padding: 5em 0;
+    background-color: rgba(210, 220, 194, 0.43)
 }
 .timeline {
   list-style: none;
@@ -763,13 +768,13 @@ ul.year li {
     display: block;
 }
 ul.year li:nth-child(2){
-	    margin-top: 119px;
+    margin-top: 200px;
 }
 ul.year li:nth-child(3){
-	    margin-top: 129px;
+    margin-top: 200px;
 }
 ul.year li:nth-child(4){
-	    margin-top: 116px;
+    margin-top: 175px;
 }
 ul.year li:nth-child(5){
 	    margin-top: 112px;
@@ -925,7 +930,7 @@ ul.year li:nth-child(5){
 }
 .resp-tabs-container {
 	padding: 0px;
-	clear: left;	
+	clear: left;
 }
 h2.resp-accordion {
 	cursor: pointer;
@@ -956,12 +961,13 @@ button.close{
 	outline:none;
 }
 div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,div#portfolioModal5,div#portfolioModal6,div#portfolioModal7,div#portfolioModal8,div#portfolioModal9,div#portfolioModal10 {
-   
+
    background: rgba(0, 0, 0, 0.55);
 }
 .team-gd img {
     width: 100%;
 	border-bottom: 9px solid rgba(0, 0, 0, 0.81);
+  border-left: 9px solid rgba(0, 0, 0, 0.81);
 }
 /*-- portfolio --*/
 
@@ -1133,8 +1139,8 @@ ul.social-icons.two {
     border: 2px solid #00a78e;
 }
 .mail_right textarea {
-	height:200px; 
-	resize:none;	
+	height:131px;
+	resize:none;
 }
 .mail_right input[type="submit"] {
         border: none;
@@ -1198,7 +1204,7 @@ span.border.two:after {
 	list-style-type:none;
 	text-transform:uppercase;
 	display:inline-block;
-	margin:0 20px;	
+	margin:0 20px;
 }
 .footer_top ul {
     margin: 45px 0 45px;
@@ -1208,7 +1214,7 @@ span.border.two:after {
 .footer_top ul li a{
 	color:#B3B3B3;
 	text-decoration:none;
-	
+
 }
 /*-- //footer --*/
 .copy_right p {
@@ -1269,10 +1275,10 @@ span.border.two:after {
 		margin-top: -17px;
 		padding: 6px 0;
 	}
-	
+
 }
 @media(max-width:1280px){
-	
+
 	.thumb .team_pos {
 		bottom: -83px;
 		left: 0;
@@ -1382,7 +1388,7 @@ span.border.two:after {
 		margin-left: 7em;
 	}
 	#home {
-	   min-height: 563px;  
+	   min-height: 563px;
 	}
 	span.border {
       width: 29%;

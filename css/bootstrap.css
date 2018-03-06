@@ -319,6 +319,7 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
+
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
@@ -2813,6 +2814,9 @@ input[type="button"].btn-block {
 }
 .glyphicon-briefcase:before {
   content: "\e139";
+}
+.glyphicon-education:before {
+  content: "\e233";
 }
 .glyphicon-fullscreen:before {
   content: "\e140";
