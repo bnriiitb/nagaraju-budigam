@@ -418,7 +418,7 @@ span.border.one:after {
 .about-left-grid{
 	width: 70%;
 	float: right;
-	margin-right: 7.5em;
+	margin-right: 7.75em;
 	min-height: 433px;
 }
 .about-left-grid h2{
@@ -431,8 +431,8 @@ span.border.one:after {
 .about-left-grid p{
     color: #666666;
     font-size: 1em;
-    line-height: 2.35em;
-    margin-top: 1.5em;
+    line-height: 2.25em;
+    margin-top: 2.25em;
 }
 .about-left-grid ul{
 	margin:3em 0 0 0;
@@ -445,7 +445,6 @@ span.border.one:after {
 	margin-right: 0.2em;
 }
 .about-left {
-    height: 490px;
       padding: 4.5em 0 4.7em 0;
     float: right;
     background: rgba(248, 243, 210, 0.46);
@@ -473,14 +472,14 @@ span.border.one:after {
 }
 .about-right{
 	    float: left;
-	    padding: 0;
-	    background: url(../images/about-pic.jpg) no-repeat 0px 0px;
-	    min-height: 490px;
-	    background-size: cover;
-	    -o-background-size: cover;
-	    -webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -ms-background-size: cover;
+	padding:0;
+	background:url(../images/about-pic.jpg) no-repeat 0px 0px;
+	min-height:580px;
+	background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -ms-background-size: cover;
 }
 /*-- services --*/
 .service-head h3{
@@ -550,9 +549,9 @@ span.border.one:after {
 }
 .wthree_about_right_grid_right p{
 	    margin: 1em 0 0;
-	    color: #fffffb;
-	    line-height: 1.9em;
-	    font-size: 0.9em;
+    color: #586371;
+    line-height: 1.9em;
+    font-size: 0.9em;
 }
 .wthree_about_right_grid_right {
     padding-right: 0;
